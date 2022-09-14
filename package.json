@@ -1,0 +1,67 @@
+{
+  "name": "crm-universal",
+  "version": "0.0.1",
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "@capacitor/core": "2.4.0",
+    "@ionic/react": "^5.5.1",
+    "@ionic/react-router": "^5.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^8.0.3",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^12.19.7",
+    "@types/react": "^16.14.2",
+    "@types/react-dom": "^16.9.10",
+    "@types/react-router": "^5.1.4",
+    "@types/react-router-dom": "^5.1.6",
+    "axios": "^0.20.0",
+    "crypto-js": "^4.0.0",
+    "ionicons": "^5.2.3",
+    "js-base64": "^3.6.0",
+    "memoize-one": "^5.1.1",
+    "query-string": "^6.13.7",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-responsive": "^8.1.1",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "sass": "^1.39.0",
+    "typescript": "3.8.3",
+    "uuid": "^8.3.1",
+    "webpack": "^4.41.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "ionic-start": "node ./devLogin.js && ionic serve",
+    "ionic-build": "ionic build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "2.4.0",
+    "@ionic/cli": "^6.11.7",
+    "@types/crypto-js": "^3.1.47",
+    "@types/react-responsive": "^8.0.2",
+    "dotenv-flow": "^3.2.0"
+  },
+  "description": "An Ionic project"
+}
